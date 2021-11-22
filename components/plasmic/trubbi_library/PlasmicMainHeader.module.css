@@ -1,0 +1,125 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 72px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  padding-left: 72px;
+  padding-right: 72px;
+  background: #ffffff;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 690px) {
+  .root {
+    padding: 0px 44px;
+  }
+}
+@media (max-width: 360px) {
+  .root {
+    padding: 2px;
+  }
+}
+.root__negative {
+  background: none;
+}
+.freeBox__cy6Rc {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox___7Fbh {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.link__aKol2 {
+  display: block;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: auto;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.svg__iGnmK {
+  object-fit: cover;
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+  position: sticky;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+}
+.freeBox__aHbXi {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__mPn1X {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.link {
+  display: block;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: auto;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+  position: sticky;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+}
+.svg__negative {
+  color: #fcfcfc /* plasmic-token: fEFPIPFhO */;
+}

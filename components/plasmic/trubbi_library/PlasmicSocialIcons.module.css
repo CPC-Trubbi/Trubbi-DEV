@@ -1,0 +1,114 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+@media (max-width: 360px) {
+  .root {
+    display: none;
+  }
+}
+.link__weper {
+  display: flex;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.svg__xjs6M {
+  object-fit: cover;
+  max-width: 100%;
+  width: 28px;
+  height: 28px;
+  position: sticky;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+  flex-shrink: 0;
+}
+.link__xzZk7 {
+  display: flex;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.svg__tWo9G {
+  object-fit: cover;
+  max-width: 100%;
+  width: 28px;
+  height: 28px;
+  position: sticky;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+  flex-shrink: 0;
+}
+.link___1Awxo {
+  display: flex;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.svg___5PNpz {
+  object-fit: cover;
+  max-width: 100%;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+  flex-shrink: 0;
+}
+.link__yCW1 {
+  display: flex;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  align-self: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.svg__vZii {
+  object-fit: cover;
+  max-width: 100%;
+  width: 28px;
+  height: 28px;
+  position: sticky;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  color: #141414 /* plasmic-token: u2DeLXtVT */;
+  flex-shrink: 0;
+}

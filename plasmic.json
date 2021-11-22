@@ -1,0 +1,341 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+      "projectApiToken": "mCbWYyw8dIBzd6JgEXfoshMSes2VpILoANmak4StWjjoaKAuaZFmLGevFJFcX4gkjsPFDt5oIkw06iaRhg",
+      "projectName": "Trúbbi Library",
+      "version": "7.1.0",
+      "cssFilePath": "plasmic/trubbi_library/plasmic_trubbi_library.module.css",
+      "components": [
+        {
+          "id": "6jpY3MwLkh",
+          "name": "NumberBubble",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicNumberBubble.tsx",
+          "importSpec": {
+            "modulePath": "NumberBubble.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicNumberBubble.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TDdz7fKUxCx",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "uyNuy-uGsrz",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "CU3dlJe3Dj",
+          "name": "RadioCard",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicRadioCard.tsx",
+          "importSpec": {
+            "modulePath": "RadioCard.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicRadioCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "042Y1f-_kh",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SSE4essENl",
+          "name": "MainHeader",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicMainHeader.tsx",
+          "importSpec": {
+            "modulePath": "MainHeader.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicMainHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ifuek07_pM",
+          "name": "SocialIcons",
+          "type": "managed",
+          "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+          "renderModuleFilePath": "plasmic/trubbi_library/PlasmicSocialIcons.tsx",
+          "importSpec": {
+            "modulePath": "SocialIcons.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_library/PlasmicSocialIcons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "5V8ENcyLww6",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "UJJfzR2-HAk",
+          "name": "IndeterminateIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__Indeterminate.tsx"
+        },
+        {
+          "id": "fTX0IlX86B",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "qjCCCln2A",
+          "name": "TrubbiMyndmerkiAndhverfasvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__TrubbiMyndmerkiAndhverfasvg.tsx"
+        },
+        {
+          "id": "o71rSGXGG",
+          "name": "TrubbiTextamerkiAndhverfasvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__TrubbiTextamerkiAndhverfasvg.tsx"
+        },
+        {
+          "id": "qAdIjQfNiV",
+          "name": "IconAwesomeFacebookFsvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__IconAwesomeFacebookFsvg.tsx"
+        },
+        {
+          "id": "5WL9UWXccu",
+          "name": "IconAwesomeInstagramsvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__IconAwesomeInstagramsvg.tsx"
+        },
+        {
+          "id": "L-EHWHz59l",
+          "name": "IconAwesomeLinkedinInsvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__IconAwesomeLinkedinInsvg.tsx"
+        },
+        {
+          "id": "byFY0Hzc7R",
+          "name": "IconAwesomeTwittersvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__IconAwesomeTwittersvg.tsx"
+        },
+        {
+          "id": "h2B9IBY35Y",
+          "name": "MenuIconsvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__MenuIconsvg.tsx"
+        },
+        {
+          "id": "L1WlQ4kt9t",
+          "name": "IconFeatherMenusvgIcon",
+          "moduleFilePath": "plasmic/trubbi_library/icons/PlasmicIcon__IconFeatherMenusvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "9jUUPthJy",
+          "name": "image",
+          "filePath": "../public/plasmic/trubbi_library/images/image.png"
+        },
+        {
+          "id": "uC-Q9USL1",
+          "name": "image 2",
+          "filePath": "../public/plasmic/trubbi_library/images/image2.png"
+        },
+        {
+          "id": "c9vX7yanz",
+          "name": "footer-lineart.png",
+          "filePath": "../public/plasmic/trubbi_library/images/footerLineartpng.png"
+        }
+      ],
+      "indirect": true,
+      "codeComponents": []
+    },
+    {
+      "projectId": "viWxjihD78B5cQSNFM9rw3",
+      "projectApiToken": "JlHSo9pL09XVzzjhDlelg9SuhKaY4HYD0DS9b7hMjL5OnEGbxHtRdQ43Hx6hTZKxuqWogBvCKpP9SiUvfy5g",
+      "projectName": "Trúbbi.is",
+      "version": "latest",
+      "cssFilePath": "plasmic/trubbi_is/plasmic_trubbi_is.module.css",
+      "components": [
+        {
+          "id": "w14lo9lxg7",
+          "name": "Forsida",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicForsida.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicForsida.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "--ZfzNn8OC",
+          "name": "PageLayout",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicPageLayout.tsx",
+          "importSpec": {
+            "modulePath": "PageLayout.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicPageLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MtxXWpesx0",
+          "name": "GottAdVita",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicGottAdVita.tsx",
+          "importSpec": {
+            "modulePath": "../pages/gott-ad-vita.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicGottAdVita.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5t5JdCfvIr",
+          "name": "UmTrubba",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicUmTrubba.tsx",
+          "importSpec": {
+            "modulePath": "../pages/um-trubba.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicUmTrubba.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "l6YxUIqdpK",
+          "name": "Thjonustur",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicThjonustur.tsx",
+          "importSpec": {
+            "modulePath": "../pages/thjonustur.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicThjonustur.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qBMCobG68F",
+          "name": "Thjonusta",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicThjonusta.tsx",
+          "importSpec": {
+            "modulePath": "../pages/{id}.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicThjonusta.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "mQG977DQnG",
+          "name": "Peronuverndastefna",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicPeronuverndastefna.tsx",
+          "importSpec": {
+            "modulePath": "../pages/personuverndastefna.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicPeronuverndastefna.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "c-9fUcXXRI",
+          "name": "Skilmalar",
+          "type": "managed",
+          "projectId": "viWxjihD78B5cQSNFM9rw3",
+          "renderModuleFilePath": "plasmic/trubbi_is/PlasmicSkilmalar.tsx",
+          "importSpec": {
+            "modulePath": "../pages/skilmalar.tsx"
+          },
+          "cssFilePath": "plasmic/trubbi_is/PlasmicSkilmalar.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "uBXExPHzRUYf",
+        "name": "Screen",
+        "projectId": "6t8zkvgddX7FsFBrxzeJqm",
+        "contextFilePath": "plasmic/trubbi_library/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "jGrjipsxZS",
+        "name": "Screen",
+        "projectId": "viWxjihD78B5cQSNFM9rw3",
+        "contextFilePath": "plasmic/trubbi_is/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}

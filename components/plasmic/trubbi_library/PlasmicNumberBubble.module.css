@@ -1,0 +1,19 @@
+.root {
+  height: auto;
+  width: auto;
+  min-width: 70px;
+  min-height: 70px;
+  position: relative;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  background: #393939;
+  border-radius: 48px;
+}
+.slotTargetChildren {
+  font-family: Raleway Light;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
