@@ -197,7 +197,8 @@
         }
       ],
       "indirect": true,
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "viWxjihD78B5cQSNFM9rw3",
